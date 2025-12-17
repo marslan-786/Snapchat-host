@@ -26,7 +26,7 @@ RUN npm install
 # USERNAME AUR PASSWORD YAHAN SET KAREN
 # Filhal User: root | Pass: 12345 hai. Ise change kar len.
 # ----------------------------------------------------
-RUN echo 'nothing:786786' | chpasswd
+RUN echo 'root:786786' | chpasswd
 
 # Container start hone par SSH aur Node server dono chalayen
 CMD ["/bin/sh", "-c", "/usr/sbin/sshd && node server.js"]
