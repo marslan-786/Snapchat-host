@@ -8,7 +8,7 @@ const port = process.env.PORT || 8080;
 // HTTP Server banayen taake Railway khush rahe (Health check)
 const server = http.createServer((req, res) => {
     res.writeHead(200, { 'Content-Type': 'text/plain' });
-    res.end('SSH over WebSocket is Running! @Gemini\n');
+    res.end('SSH over WebSocket is Running! @only_possible\n');
 });
 
 // WebSocket Server ko HTTP server ke sath attach karen
